@@ -1,4 +1,10 @@
+#environnement virtuel python
 /dbt-venv
+
+# configs spécifiques de l'utilisateur
 .user.yml
-/logs
-logs
+
+# fichiers et répertoires automatiquement générés par dbt
+target/
+dbt_packages/
+logs/
